@@ -1,0 +1,89 @@
+{
+  "checkedAt": "2026-11-16T23:44:55.101Z",
+  "source": "immersive/game.js and objects.js read at test start",
+  "sourceSha256": {
+    "game": "1baedf298ee32eef36bc3c019d47c0fa950f192be977b7e1cda45cdff0d172c6",
+    "objects": "adb3370dab673d7cbf223394bbab0308ccfd21a4c56266f5863b3c764c816e18",
+    "template": "7791a9bec2f950f67ecd7139995ccfee0e1ee907c97a719dff44d3d5c35cbf0e"
+  },
+  "artifactBytes": 2258639,
+  "artifactSha256": "bb9403bf8f3616e5662e5f15e6540d693d342fd476e18979786479c82b003fc5",
+  "artifactSizePolicy": "Informational only: user explicitly removed the Funtrack upload size constraint for this iteration.",
+  "passed": 18,
+  "failed": 0,
+  "results": [
+    {
+      "name": "Both endings, both pickup and parallel puzzle orders",
+      "status": "passed"
+    },
+    {
+      "name": "Save/reload of partial stitching and selected-item reset",
+      "status": "passed"
+    },
+    {
+      "name": "Save/reload of unsolved paper arrangement",
+      "status": "passed"
+    },
+    {
+      "name": "Room visual layer resets after desk-based clue",
+      "status": "passed"
+    },
+    {
+      "name": "Ending journal: both back button and Escape return to ending",
+      "status": "passed"
+    },
+    {
+      "name": "Restart clears puzzle state but preserves single host completion per document",
+      "status": "passed"
+    },
+    {
+      "name": "Pause, hidden tab, restart and pagehide lifecycle",
+      "status": "passed"
+    },
+    {
+      "name": "Storage denied and invalid JSON do not block play",
+      "status": "passed"
+    },
+    {
+      "name": "Malformed save state is discarded or normalized safely",
+      "status": "passed"
+    },
+    {
+      "name": "Completed save cannot resume into a duplicate ending",
+      "status": "passed"
+    },
+    {
+      "name": "Leaving the title screen preserves an existing save and never writes an empty one",
+      "status": "passed"
+    },
+    {
+      "name": "Drag swap, pointer cancellation and state persistence",
+      "status": "passed"
+    },
+    {
+      "name": "Tap and drag share controls without premature pointer capture",
+      "status": "passed"
+    },
+    {
+      "name": "Visible needle owns the reset hit area; last stitch can be undone without selection",
+      "status": "passed"
+    },
+    {
+      "name": "A saved wrong five-hole route can be unwound, reset and completed",
+      "status": "passed"
+    },
+    {
+      "name": "Mailbox keyboard and accumulated wheel input agree and wrap zero/nine",
+      "status": "passed"
+    },
+    {
+      "name": "Mailbox vertical drag snaps symmetrically, wraps and suppresses its trailing click",
+      "status": "passed"
+    },
+    {
+      "name": "Compiled single-file artifact syntax and self-contained assets",
+      "status": "passed"
+    }
+  ],
+  "limits": "Deterministic lightweight DOM/VM checks; no browser geometry, actual persistence permissions, audio playback, blind-play duration or Funtrack server receipt verification."
+}

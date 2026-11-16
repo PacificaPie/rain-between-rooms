@@ -1,0 +1,6 @@
+{
+  "upstream": "https://github.com/lxgw/LxgwWenkaiTC",
+  "commit": "a689a17490f509abb5d7dd434f6aaf1473a13724",
+  "font_path": "fonts/TTF/LXGWWenKaiTC-Regular.ttf",
+  "license": "SIL Open Font License 1.1"
+}

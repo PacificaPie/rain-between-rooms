@@ -1,0 +1,30 @@
+[
+  {
+    "file": "window-display.woff2",
+    "source": "noto-serif-tc-source.ttf",
+    "family": "Window Rain Display",
+    "style": "Black",
+    "weight": 900,
+    "supported_characters": 623,
+    "bytes": 119588,
+    "missing_cjk": [],
+    "source_files": [
+      "template.html",
+      "game.js",
+      "objects.js"
+    ]
+  },
+  {
+    "file": "window-condensed.woff2",
+    "source": "oswald-source.ttf",
+    "family": "Window Rain Condensed",
+    "style": "Light",
+    "weight": 300,
+    "supported_characters": 13,
+    "bytes": 1908,
+    "missing_cjk": [],
+    "source_files": [
+      "in the mood for love"
+    ]
+  }
+]
